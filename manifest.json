@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Tracking Trackers",
+	"description": "Une extension qui liste les trackers d'une page web",
+	"version": "0.1",
+	"icons": { 
+		"16": "ico/radar-16.png",
+		"24": "ico/radar-24.png",
+		"32": "ico/radar-32.png",
+		"64": "ico/radar-64.png",
+		"128": "ico/radar-128.png",
+		"256": "ico/radar-256.png",
+		"512": "ico/radar-512.png"
+	},
+	"browser_action": {},
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+	"permissions": [
+		"webRequest",
+		"<all_urls>"
+	]
+}
